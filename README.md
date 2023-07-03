@@ -1,2 +1,2 @@
 # InstructEval
-Evaluation suite for the systematic evaluation of instruction selection methods.
+Code for the paper `InstructEval: Systematic Evaluation of Instruction Selection Methods` coming soon...

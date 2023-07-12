@@ -1,0 +1,9 @@
+{%- set dataset_name = "tweet_emotion" -%}
+{%- set label_map = {0: 'Anger', 1: 'Joy', 2: 'Optimism', 3: 'Sadness'} -%}
+{{instruction}}
+{% for demonstration in demonstrations %}
+Tweet: {{demonstration['text']}}
+Emotion: {{label_map[demonstration['label']]}}
+{% endfor %}
+Tweet: {{test_example['text']}}
+Emotion: {{label_map[test_example['label']]}}

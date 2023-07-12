@@ -1,0 +1,5 @@
+ - "produce a list of input-output pairs for a sentiment analysis program."
+ - "give a positive review if the movie was good and a negative review if the movie was bad."
+ - "write a positive review, and the output was positive."
+ - "give a positive review if the input was positive and a negative review if the input was negative."
+ - "give a review of a movie, and the input-output pairs show reviews that are positive."

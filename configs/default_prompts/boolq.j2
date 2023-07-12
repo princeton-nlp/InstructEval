@@ -1,0 +1,11 @@
+{%- set dataset_name = "boolq" -%}
+{%- set label_map = {True: 'True', False: 'False'} -%}
+{{instruction}}
+{% for demonstration in demonstrations %}
+Passage: {{demonstration['passage']}}
+Question: {{demonstration['question']}}
+Answer: {{label_map[demonstration['answer']]}}
+{% endfor %}
+Passage: {{test_example['passage']}}
+Question: {{test_example['question']}}
+Answer: {{label_map[test_example['answer']]}}

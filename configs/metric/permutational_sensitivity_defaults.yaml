@@ -1,0 +1,5 @@
+permutational_sensitivity:
+  num_permutations: 5
+  num_combinations: 5
+  num_test_instances: 100
+  num_demonstrations: 6

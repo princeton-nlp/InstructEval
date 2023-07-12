@@ -1,0 +1,5 @@
+ - "classify each input into one of the following categories: World, U.S., Business, Sci/Tech, or Sports."
+ - "classify the input into one of five categories: World, U.S., Business, Sci/Tech, or Sports."
+ - "produce an output of 'Sci/Tech' for the first input, 'Business' for the second input, 'World' for the third input, 'Sci/Tech' for the fourth input, and 'Sports' for the fifth input"
+ - "categorize the inputs into one of five categories: World, Business, Sci/Tech, Sports, or Other."
+ - "write a program that outputs 'Sci/Tech' if the input is about science or technology, 'Business' if the input is about business, 'World' if the input is about world news, and 'Sports' if the input is"

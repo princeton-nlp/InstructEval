@@ -1,0 +1,11 @@
+{%- set dataset_name = "cosmos_qa" -%}
+{%- set label_map = {0: None, 1: None, 2: None, 3: None} -%}
+{{instruction}}
+{% for demonstration in demonstrations %}
+Passage: {{demonstration['context']}}
+Question: {{demonstration['question']}}
+Answer: {{demonstration['answer' ~ demonstration['label']]}}
+{% endfor %}
+Passage: {{test_example['context']}}
+Question: {{test_example['question']}}
+Answer: {{test_example['answer' ~ test_example['label']]}}

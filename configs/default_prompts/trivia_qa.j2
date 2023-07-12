@@ -1,0 +1,8 @@
+{%- set dataset_name = "trivia_qa" -%}
+{{instruction}}
+{% for demonstration in demonstrations %}
+Question: {{demonstration['question']}}
+Answer: {{demonstration['answer']['aliases'][0]}}
+{% endfor %}
+Question: {{test_example['question']}}
+Answer: {% if ('answer' in test_example) and (test_example['answer']) %}{{test_example['answer']['aliases'][0]}}{% endif %}

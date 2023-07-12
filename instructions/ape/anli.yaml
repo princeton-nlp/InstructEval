@@ -1,0 +1,5 @@
+ - "produce a list of input-output pairs that are Entail, Contradict, or Neutral."
+ - "produce an entailment if the hypothesis is entailed by the premise, and to produce a neutral if the hypothesis is not entailed by the premise."
+ - "produce a list of input-output pairs that are either entailments, contradictions, or neutral."
+ - "produce an entailment if the hypothesis followed logically from the premise, a contradiction if the hypothesis contradicted the premise, and neutral if the hypothesis was not entailed or contradicted by the premise."
+ - "produce an entailment if the hypothesis is entailed by the premise, a contradiction if the hypothesis contradicts the premise, and neutral if the hypothesis is neither entailed nor contradicted by the premise."

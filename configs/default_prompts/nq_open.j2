@@ -1,0 +1,8 @@
+{%- set dataset_name = "nq_open" -%}
+{{instruction}}
+{% for demonstration in demonstrations %}
+Question: {{demonstration['question']}}
+Answer: {{demonstration['answer'][0]}}
+{% endfor %}
+Question: {{test_example['question']}}
+Answer: {% if ('answer' in test_example) and (test_example['answer']) %}{{test_example['answer'][0]}}{% endif %}

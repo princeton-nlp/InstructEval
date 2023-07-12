@@ -1,0 +1,5 @@
+ - "list all of the possible emotions that could be conveyed in the inputs. The possible emotions are sadness, anger, and joy."
+ - "produce an output of 'Joy' for inputs that express positive emotion, 'Sadness' for inputs that express negative emotion, and 'Optimism' for inputs that express a hope for the future."
+ - "predict the emotion of the user based on the text."
+ - "identify the emotion being expressed in the input."
+ - "identify the emotions in the following tweets"

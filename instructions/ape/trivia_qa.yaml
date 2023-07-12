@@ -1,0 +1,5 @@
+ - "produce input-output pairs for the game show Jeopardy!."
+ - "Find the Wikipedia page for the thing mentioned in the input, and then look for the first link on that page (not in parentheses)"
+ - " use Google to find the answer to the question."
+ - "'name the royal house that Charles VI belonged to.' The input-output pair 'Valois (disambiguation)' is incorrect because it does not name a royal house."
+ - "produce input-output pairs for the game 20 Questions."

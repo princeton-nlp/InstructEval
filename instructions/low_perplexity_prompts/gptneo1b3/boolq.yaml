@@ -1,0 +1,10 @@
+- Determine whether the answer to a question can be found in the passage, and if so,
+  decide if the answer is true or false.
+- Evaluate if a question can be answered using the information provided in the passage,
+  and if so, determine if the answer is true or false.
+- Check whether a question can be answered using the information in the passage, and
+  if so, determine if the answer is true or false.
+- Determine whether a given question can be answered using information from the passage,
+  and if so, determine if the answer is true or false.
+- Assess whether the question can be answered using only the information in the passage,
+  and if so, determine if the answer is true or false.

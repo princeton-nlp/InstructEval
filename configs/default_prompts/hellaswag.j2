@@ -1,0 +1,9 @@
+{%- set dataset_name = "hellaswag" -%}
+{%- set label_map = {"0": None, "1": None, "2": None, "3": None} -%}
+{{instruction}}
+{% for demonstration in demonstrations %}
+Sentence: {{demonstration['ctx']}}
+Answer: {{demonstration['endings'][demonstration['label'] | int]}}
+{% endfor %}
+Sentence: {{test_example['ctx']}}
+Answer: {% if 'label' in test_example %}{{test_example['endings'][test_example['label'] | int]}}{% endif %}

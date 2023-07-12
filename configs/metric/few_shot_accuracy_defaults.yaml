@@ -1,0 +1,4 @@
+few_shot_accuracy:
+  num_combinations: 30
+  num_test_instances: 100
+  num_demonstrations: 6

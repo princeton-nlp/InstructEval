@@ -1,0 +1,5 @@
+ - "produce a true or false output based on the question asked about the passage given."
+ - "produce a true or false statement based on the passage given."
+ - "produce input-output pairs that were either true or false."
+ - "produce a true or false output based on whether the passage contains the information required to answer the question."
+ - "determine whether the statement in the question is true or false based on the information in the passage.s"

@@ -93,6 +93,11 @@ We include support for 9 tasks across classification (CLS), multiple-choice ques
 | NaturalQuestions Open | GQA | `nq_open` |
 | TriviaQA | GQA | `trivia_qa` |
 
+-------
+
+## Results
+The results of a collection of experiments we performed for our paper are available [here](https://drive.google.com/file/d/1m9HP4BWhEZkURUZ39jpq1oLiCDv6KTQu/view?usp=drive_link). The results are organized by task, model, and metric. Each file contains the results of evaluating a single instruction on a single model and task, along a single metric and some associated metadata.
+
 ## Questions?
 Feel free to contact `anirudh.ajith@princeton.edu` or `chris.pan@princeton.edu` if you have any questions about the evaluation suite, or our paper!
 
